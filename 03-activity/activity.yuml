@@ -1,0 +1,5 @@
+// {type:activity}
+// {generate:true}
+
+(start)-><d1>[logged in]->(Show Dashboard)
+<d1>[not logged in]-> (Show Login Page)

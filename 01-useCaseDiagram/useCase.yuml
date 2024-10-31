@@ -1,0 +1,21 @@
+
+
+// {type:usecase}
+// {generate:true}
+// Actores
+[Usuario]-(Ver lista de pizzas)
+[Usuario]-(Ver detalles de pizza)
+[Usuario]-(Calcular precio de pizza)
+
+[Administrador]-(Crear pizza)
+(Crear pizza)<(Añadir ingrediente a pizza)
+[Administrador]-(Actualizar pizza)
+[Administrador]-(Eliminar pizza)
+[Administrador]-(Añadir ingrediente a pizza)
+[Administrador]-(Eliminar ingrediente de pizza)
+[Administrador]-(Crear ingrediente)
+[Administrador]-(Actualizar ingrediente)
+
+
+
+
