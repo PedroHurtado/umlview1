@@ -59,8 +59,8 @@ sequenceDiagram
     alt Transacción autorizada
         Banco-->>ATM: 3a. Autoriza transacción
         ATM-->>Usuario: 3b. Dispensa efectivo
-        Usuario->>ATM: 4a. Retira efectivo
-        Usuario->>ATM: 4b. Retira tarjeta
+        Usuario->>ATM: 4a. Retira tarjeta
+        Usuario->>ATM: 4b. Retira efectivo        
     else Transacción denegada
         Banco-->>ATM: 3a. Deniega transacción
         ATM-->>Usuario: 3b. Muestra mensaje de error
