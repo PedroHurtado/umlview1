@@ -80,4 +80,3 @@ sequenceDiagram
 
 Los diagramas de secuencia son una herramienta valiosa para modelar la dinámica de un sistema. Al entender los componentes y la sintaxis de estos diagramas, podrás crear representaciones visuales claras y concisas de tus diseños.
 
-**¿Te gustaría profundizar en algún aspecto específico de los diagramas de secuencia?** Por ejemplo, puedo explicarte cómo modelar llamadas recursivas, condiciones o bucles. 
