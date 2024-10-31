@@ -1,5 +1,23 @@
 Un diagrama de actividades (activity diagram) en UML es una representación visual de los flujos de trabajo y procesos dentro de un sistema. Se utiliza para mostrar el flujo de control o de datos de una actividad a otra y es particularmente útil para modelar procesos complejos. Aquí tienes los elementos clave de un diagrama de actividades:
 
+```yuml
+// {type:usecase}
+// {generate:true}
+// Actores
+[Usuario]-(Ver lista de pizzas)
+[Usuario]-(Ver detalles de pizza)
+[Usuario]-(Calcular precio de pizza)
+ 
+[Administrador]-(Crear pizza)
+(Crear pizza)<(Añadir ingrediente a pizza)
+[Administrador]-(Actualizar pizza)
+[Administrador]-(Eliminar pizza)
+[Administrador]-(Añadir ingrediente a pizza)
+[Administrador]-(Eliminar ingrediente de pizza)
+[Administrador]-(Crear ingrediente)
+[Administrador]-(Actualizar ingrediente)
+```
+
 ### 1. **Actividades**
    - **Descripción**: Representan las tareas o acciones que se realizan dentro del proceso.
    - **Símbolo**: Se dibujan como rectángulos con bordes redondeados.

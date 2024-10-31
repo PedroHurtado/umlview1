@@ -32,13 +32,13 @@ classDiagram
         +static Pizza Create(String name, String description, String url)
         +void AddIngredient(Ingredient ingredient)
         +void RemoveIngredient(Ingredient ingredient)
-        +List~Ingredient~ getIngredients()
-        +double getPrice()
+        +List~Ingredient~ getIngredients()        
+        +double getPrice() sum(cost-ingredients) * profit
         -Set~Ingredient~ ingredients
         -final double PROFIT=1.2
     }
-
-    Ingredient --> EntityBase : extends
+    
+    Ingredient --> EntityBase : extends    
     Pizza  -->  EntityBase : extends
     Pizza "1" --> "1..*" Ingredient : uses
 ```

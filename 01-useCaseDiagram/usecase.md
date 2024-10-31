@@ -1,5 +1,6 @@
 Un diagrama de casos de uso en UML representa las interacciones de los usuarios (actores) con un sistema para lograr un objetivo específico. Los principales elementos de un diagrama de casos de uso son:
 
+
 ### 1. **Actores**
    - Representan roles o entidades externas que interactúan con el sistema, como usuarios humanos o sistemas externos.
    - Se dibujan como figuras de palo o simplemente un nombre entre corchetes (`[Actor]`).
